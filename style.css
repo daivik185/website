@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0%;
+}
+.navbar{
+    display:flex;
+    background-size: cover;
+    background-color:rgb(155, 131, 131);
+    justify-content: space-between;
+}
+.logo{
+    font-size: 40px;
+    justify-content: center;
+}
+.navbar .navbar1{
+ justify-content: space-between;
+ display:flex;
+}
+.navbar .menu{
+    list-style: none;
+    display: flex;
+    padding:10px;
+}
+.navbar .menu li a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar .menu li a :hover{
+    color: blanchedalmond;
+    transition: 3s;
+}

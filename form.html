@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exam From</title>
+    <style>
+        
+header{
+    font-size:500%;
+}
+nav{
+    background-color: rgb(29, 70, 70);
+    overflow: hidden;
+}
+nav a{
+    font-size:x-large;
+    padding: 10px;
+    color:black;
+    text-align: center;
+    float:left;
+}
+.cll
+{
+    text-decoration: underline;
+    background-color: rgb(51, 64, 65);
+    color:rgb(176, 196, 197);
+}
+form{
+    text-align:center;
+}
+*{
+    background-color: rgb(48, 54, 54);
+    color:white;
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <form>
+        <header>
+        <h1>Exam Form</h1>
+        
+        </header>
+        <hr>
+        <p>Fields with '*' are required to fill</p>
+        <h2 class = "cll">Student Information</h2>
+        <section class="cal">
+        <p>
+            Frist Name:* <input type="text" name="firstname" id="firstname" required>    Last Name: <input type="text" name="father" id="father"><br><br>
+            Father's Name:* <input type="text" name="last" id="last"required>     Mother's Name:* <input type="text" name="mother" id="mother" required><br>
+        </p>
+        <p>
+            DOB:* <input type="date" name="dob" id="dob"required>
+        </p>
+        <p>
+            Gender:<br>
+            <input type="radio" name="gender" id="gender"> Male<br>
+            <input type="radio" name="gender" id="gender"> Female<br>
+            <input type="radio" name="gender" id="gender"> Other<br>
+        </p>
+        <p>
+            address:*<textarea cols="30" rows="4" required>
+             </textarea>
+         </p>
+         <p>
+             Email:* <input type="email" name="email" id="email"required>
+         </p>
+          <p>
+              Enrollmeny No.:* <input type="number" name="enroll" id="enroll"reuired>
+          </p>
+               <p>
+                   Choose center:*
+                  <select name="city" id="city"required>
+                  <option value="">--select city--</option>
+                  <option value="delhi">Delhi</option>
+                  <option value="mumbai">Mumbai</option>
+                  <option value="indore">Indore</option>
+                  <option value="jaipur">Jaipur</option>
+                  </select>
+               </p>
+               <p>
+                   <input type="submit" value="submit">
+               </p>
+               <hr>
+               </section>
+            <h2 class ="cll">Payment Information</h2>
+              <p>
+                  Card type:*
+                  <select required>
+                      <option value="">--select card type--</option>
+                      <option value="VISA">VISA</option>
+                      <option value="RUPY">RUPAY</option>
+                      <option value="MASTERCARD">MASTER CARD</option>
+                      <option value="OTHER">OTHER</option>
+                  </select><br><br>
+                  Card Holder's Name:* <input type="text" name="hold" id="hold"required><br><br>
+                  Card No.:* <input type="number" name="card_no." id="card_no."required><br><br>
+                  Exp Date:* <input type="date" name="exp" id="exp"required><br><br>
+                  CVV:* <input type="number" name="cvv" id="cvv"required><br>
+             </p>
+             <p>
+                 <input type="submit" value="Payment">
+             </p>
+             <hr>
+             <p>For any query you can contact us via mail and call</p>
+             <p>Contact No. : 8269676698 
+             </p>
+             <p>
+                 Email:<a href="mailto:cdaivik185@gmail.com">cdaivik185@gmail.com</a>
+             </p>
+    </form>
+    
+</body>
+</html>
